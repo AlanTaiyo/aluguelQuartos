@@ -49,7 +49,7 @@ public class Main {
 				alugar = leitura.nextInt();
 				for (int i = 0; i < alugar;) {
 					while (i < alugar) {
-						System.out.println("Digite o número do quarto que você vai querer alugar de 1 a 10.");
+						System.out.println("Digite o número do quarto que você vai querer alugar de 0 a 9.");
 						quarto = leitura.nextInt();
 						leitura.nextLine();
 						if (vetor[quarto] == null) {
@@ -72,7 +72,7 @@ public class Main {
 				break;
 
 			case 3:
-				System.out.println("Digite o número do quarto que você vai querer encerrar o aluguel de 1 a 10.");
+				System.out.println("Digite o número do quarto que você vai querer encerrar o aluguel de 0 a 9.");
 				quarto = leitura.nextInt();
 				leitura.nextLine();
 				if (vetor[quarto] != null) {
