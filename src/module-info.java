@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author abrito
+ *
+ */
+module aluguelQuartos {
+}
