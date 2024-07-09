@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author alan_taiyo
+ * @author abrito
  *
  */
 module aluguelQuartos {
